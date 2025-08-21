@@ -154,7 +154,8 @@
 @layer components {
   /* KPI Card Variants */
   .kpi-card {
-    @apply rounded-xl bg-card shadow-[var(--shadow-card)] border border-border/50 p-6 transition-all duration-[var(--transition-normal)] hover:shadow-[var(--shadow-lg)];
+    @apply rounded-xl bg-card border border-border/50 p-6 transition-all duration-300 hover:shadow-lg;
+    box-shadow: var(--shadow-card);
   }
   
   .kpi-card-primary {
