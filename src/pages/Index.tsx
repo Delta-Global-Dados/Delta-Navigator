@@ -1,12 +1,7 @@
-import { AppLayout } from "@/components/layouts/AppLayout";
-import Dashboard from "./Dashboard";
+import { SinglePageApp } from "@/components/SinglePageApp";
 
 const Index = () => {
-  return (
-    <AppLayout>
-      <Dashboard />
-    </AppLayout>
-  );
+  return <SinglePageApp />;
 };
 
 export default Index;
